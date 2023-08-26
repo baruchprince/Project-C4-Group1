@@ -1,0 +1,52 @@
+@media (max-width: 900px) {
+  .product-container {
+    width: 350px;
+    height: 3006px;
+    background-color: #ffffff;
+    margin: 35px 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .sub-heading {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0em;
+    margin: 0 auto;
+    color: #000000;
+    text-align: center;
+  }
+  .showcase {
+    width: 350px;
+    height: 350px;
+    top: 1368px;
+    left: 12px;
+    background-color: rgba(52, 48, 48, 0.5);
+  }
+  .one {
+    background-image: url(../images/13\ 1.png);
+  }
+  .two {
+    background-image: url(../images/13\ 1\ 1.png);
+  }
+  .three {
+    background-image: url(../images/13\ 1bag.png);
+  }
+  .four {
+    background-image: url(../images/13\ 1pencilholder.png);
+  }
+  .five {
+    background-image: url(../images/13\ 1keyholder.png);
+  }
+  .six {
+    background-image: url(../images/13\ 1cottoncanvas.png);
+  }
+  .seven {
+    background-image: url(../images/13\ 1kors.png);
+  }
+  .eight {
+    background-image: url(../images/13\ 1bost.png);
+  }
+}
