@@ -1,0 +1,54 @@
+/* General stylesheet for ecommerce site */
+
+/* Resetting defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body stylesheet */
+body {
+  font-family: poppins, sans-serif;
+  background-color: #ffffff;
+}
+
+/* Removing underline and setting anchor tags 
+to inherit color from parent item */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove bulletings from navigation items
+and set color to white */
+ul {
+  list-style-type: none;
+}
+li {
+  float: left;
+  margin-right: 28px;
+  color: #ffffff;
+}
+
+/* Set navigation elements to be horizontal */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* style for main SHOP NOW  link on hero page */
+.shop a {
+  text-decoration: underline;
+  margin-bottom: 34px;
+}
+
+.shop {
+  font-family: Dosis;
+  font-size: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+}
