@@ -1,8 +1,8 @@
 /* style for hero section of web page */
 .hero {
-  background-image: url(../images/Hero\(1\).png);
+  background-image: url(../images/hero.jpg);
   padding: 10px;
-  height: 700px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -44,13 +44,8 @@
   padding: 25px;
 }
 
-/* media qeury stryle to fit on mobile devices */
-@media (max-width: 900px) {
-  .nav {
-    display: none;
-  }
-  .hero {
-    background-image: url(../images/Hero\(2\).png);
+/* .hero {
+    background-image: url(../assets/hero.jpg);
     width: 375px;
     height: 812px;
     background-size: cover;
@@ -65,5 +60,11 @@
   .shop {
     margin-bottom: 3px;
     font-size: 11px;
+  } */
+
+/* media qeury stryle to fit on mobile devices */
+@media (max-width: 900px) {
+  .nav {
+    display: none;
   }
-}
+  }
