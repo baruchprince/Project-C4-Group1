@@ -10,14 +10,7 @@
 .footer img {
   color: #000000;
   padding-top: 30px;
-}
-.dft {
-  margin-bottom: 12px;
-}
-.footer .subscribe {
-  margin-left: 5px;
-  border: 1px solid rgba(104, 104, 129, 0.103);
-  height: 140px;
+  margin-left: 12px;
 }
 
 form.userform input[type="text"] {
@@ -25,13 +18,14 @@ form.userform input[type="text"] {
   font-size: 17px;
   border: 1px solid grey;
   float: left;
-  width: 280px;
+  width: 290px;
   height: 30px;
+  margin-left: 12px;
 }
 
 form.userform button {
   float: left;
-  width: 30px;
+  width: 40px;
   height: 30px;
   text-align: center;
   padding: 2px;
@@ -42,14 +36,39 @@ form.userform button {
   cursor: pointer;
 }
 #send {
-  background-image: url(../images/greater-than.png);
+  font-size: 24px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
+.container3 {
+  margin-bottom: 10px;
+}
 
 .address {
-  background-color: blue;
-  height: 30px;
+  height: 170px;
   margin-bottom: 5px;
+  margin-top: 10px;
+  width: 335px;
+  margin: 0;
+}
+
+.imagespace {
+  margin-left: 10px;
+}
+
+.address p {
+  line-height: 0.1px;
+  margin-left: 12px;
+}
+
+.container p {
+  margin-left: 12px;
+}
+.sign {
+  margin-left: 12px;
+}
+#line {
+  background-color: blue;
+  margin-top: 80px;
 }
