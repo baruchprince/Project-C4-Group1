@@ -69,6 +69,7 @@ form.userform button {
   margin-left: 12px;
 }
 #line {
-  background-color: blue;
+  background-color: #000000;
   margin-top: 80px;
+  margin-bottom: 20px;
 }
