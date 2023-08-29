@@ -1,35 +1,146 @@
 .product-container {
   width: 375px;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-direction: column;
+  margin-bottom: 2px;
+  height: 2910px;
+  padding: 10px;
 }
-.sub-heading {
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 300;
-  letter-spacing: 0em;
-  margin: 0 auto;
-  color: #000000;
+.heading {
+  margin: 0;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
   text-align: center;
+  font-weight: normal;
 }
-.showcase {
+
+.showcase1 {
+  width: 355px;
+  height: 350px;
+  left: 12px;
+  margin-bottom: 13px;
+  background-image: url(../images/13\ 1furniture.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.showcase2 {
   width: 355px;
   height: 350px;
   top: 1368px;
   left: 12px;
   background-color: rgba(52, 48, 48, 0.5);
   margin-bottom: 13px;
-}
-.one {
-  background-image: url(../images/13\ 1.png);
+  background-image: url(../images/13\ 1cup.svg);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 355px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.showcase3 {
+  width: 355px;
+  height: 350px;
+  top: 1368px;
+  left: 12px;
+  background-color: rgba(52, 48, 48, 0.5);
+  margin-bottom: 13px;
+  background-image: url(../images/13\ 1bag.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.showcase4 {
+  width: 355px;
+  height: 350px;
+  top: 1368px;
+  left: 12px;
+  background-color: rgba(52, 48, 48, 0.5);
+  margin-bottom: 13px;
+  background-image: url(../images/13\ 1pencil.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news-container {
+  height: 1100px;
+  padding: 10px;
+  width: 375px;
+  margin-bottom: 35px;
+}
+
+.showcase5 {
+  width: 355px;
+  height: 350px;
+  top: 1368px;
+  left: 12px;
+  background-color: rgba(52, 48, 48, 0.5);
+  margin-bottom: 13px;
+  background-image: url(../images/13\ 1keyholder.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.showcase6 {
+  width: 355px;
+  height: 350px;
+  top: 1368px;
+  left: 12px;
+  background-color: rgba(52, 48, 48, 0.5);
+  margin-bottom: 13px;
+  background-image: url(../images/13\ 1cottoncanvas.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.showcase7 {
+  width: 355px;
+  height: 350px;
+  top: 1368px;
+  left: 12px;
+  background-color: rgba(52, 48, 48, 0.5);
+  margin-bottom: 13px;
+  background-image: url(../images/13\ 1kors.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.showcase8 {
+  width: 355px;
+  height: 350px;
+  top: 1368px;
+  left: 12px;
+  background-color: rgba(52, 48, 48, 0.5);
+  margin-bottom: 13px;
+  background-image: url(../images/13\ 1bost.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.showcase9 {
+  width: 355px;
+  height: 350px;
+}
+
 .details {
   width: 131px;
   height: 80px;
@@ -39,67 +150,101 @@
   text-align: center;
   font-size: 12px;
 }
-.two {
-  background-image: url(../images/13\ 1\ 1.png);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.three {
-  background-image: url(../images/13\ 1bag.png);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.four {
-  background-image: url(../images/13\ 1pencilholder.png);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.five {
-  background-image: url(../images/13\ 1keyholder.png);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.six {
-  background-image: url(../images/13\ 1cottoncanvas.png);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.seven {
-  background-image: url(../images/13\ 1kors.png);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.eight {
-  background-image: url(../images/13\ 1bost.png);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .art1 {
+  width: 355px;
+  height: 350px;
+  left: 12px;
+  background-color: rgba(52, 48, 48, 0.5);
+  margin-bottom: 13px;
   background-image: url(../images/Article1.svg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 355px;
 }
+
 .art2 {
-  background-image: url(../images/Article2.svg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 355px;
+  height: 350px;
+  left: 12px;
+  background-color: rgba(52, 48, 48, 0.5);
+  margin-bottom: 13px;
+  background-image: url(../images/Article2.svg);
 }
 .art3 {
-  background-image: url(../images/Article3.svg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 355px;
+  height: 350px;
+  left: 12px;
+  background-color: rgba(52, 48, 48, 0.5);
+  margin-bottom: 13px;
+  background-image: url(../images/Article3.svg);
+}
+
+@media only screen and (min-width: 600px) {
+  .product-container {
+    width: 744px;
+    background-color: #ffffff;
+    height: 700px;
+  }
+  .main-container {
+    width: 690px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .showcase1 {
+    width: 210px;
+    height: 210px;
+  }
+  .showcase2 {
+    width: 210px;
+    height: 210px;
+  }
+  .showcase3 {
+    width: 210px;
+    height: 210px;
+  }
+  .showcase4 {
+    width: 210px;
+    height: 210px;
+  }
+  .showcase5 {
+    width: 210px;
+    height: 210px;
+  }
+  .showcase6 {
+    width: 210px;
+    height: 210px;
+  }
+  .showcase7 {
+    width: 210px;
+    height: 210px;
+  }
+  .showcase8 {
+    width: 210px;
+    height: 210px;
+  }
+  .showcase9 {
+    width: 210px;
+    height: 210px;
+  }
+  .news-container {
+    width: 744px;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 23px;
+  }
+  div.art1 {
+    width: 320px;
+  }
+  div.art2 {
+    width: 320px;
+  }
+  div.art3 {
+    width: 320px;
+  }
+  div.art4 {
+    width: 320px;
+  }
 }
