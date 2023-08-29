@@ -11,55 +11,54 @@ basket collection*/
   margin-top: 35px;
 }
 
-/* media querry to adjust furniture collection 
-section on mobile phones*/
-@media (max-width: 900px) {
-  .furncontainer {
-    margin: 35px 13px;
-  }
-  /* mobile fit for new furniture collection*/
-  .furn1 {
-    background-image: url(../images/furn1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 150px;
-    width: 350px;
-    margin-bottom: 20px;
-    padding-left: 5px;
-    padding-top: 10px;
-  }
+/* Flex container for furnitures*/
+.furncontainer {
+  width: 375px;
+  height: 420;
+  padding: 5px;
+}
+/* mobile fit for new furniture collection*/
+.furn1 {
+  background-image: url(../images/furn1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 350px;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  padding-top: 10px;
+}
 
-  /* mobile fit for basket collection*/
-  .furn2 {
-    background-image: url(../images/busket.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 150px;
-    width: 350px;
-    margin-bottom: 20px;
-    padding-left: 5px;
-    padding-top: 10px;
-  }
+/* mobile fit for basket collection*/
+.furn2 {
+  background-image: url(../images/busket.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 350px;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  padding-top: 10px;
+}
 
-  /* mobile fit for captions on furniture and basket collection*/
-  .caption2 {
-    font-size: 14px;
-    margin-left: 5px;
-    text-align: center;
-    margin-top: 35px;
-    width: 98px;
-    padding-left: 0;
-    word-spacing: 1px;
-  }
+/* mobile fit for captions on furniture and basket collection*/
+.caption2 {
+  font-size: 14px;
+  margin-left: 5px;
+  text-align: center;
+  margin-top: 35px;
+  width: 98px;
+  padding-left: 0;
+  word-spacing: 1px;
+}
 
-  /* stylesheet for SHOP NOW link*/
-  .shopextend {
-    margin-left: 5px;
-    width: 100px;
-    font-size: 11px;
-  }
-  /* mobile fit for SHOP NOW hyperlink*/
-  .shopextend a {
-    text-decoration: underline;
-  }
+/* stylesheet for SHOP NOW link*/
+.shopextend {
+  margin-left: 5px;
+  width: 100px;
+  font-size: 11px;
+}
+/* mobile fit for SHOP NOW hyperlink*/
+.shopextend a {
+  text-decoration: underline;
 }
