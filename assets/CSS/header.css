@@ -1,24 +1,37 @@
 /* style for hero section of web page */
 .hero {
-  background-image: url(../images/Hero\(1\).png);
+  background-image: url(../images/Hero\(2\).png);
   padding: 10px;
-  height: 700px;
+  width: 375px;
+  height: 812px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /* style for header section of web page */
 .header {
+  width: 355px;
   height: 40px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
 .header img {
-  width: 113px;
-  height: 27px;
+  width: 70px;
+  height: 15px;
+  margin-left: 5px;
+  margin-top: 9px;
 }
 .header .operatives {
-  color: #ffffff;
+  margin-right: 5px;
+  height: 40px;
+  margin-top: -15px;
+  padding: 0;
+}
+
+.operatives img {
+  height: 50px;
 }
 
 /* style for message section of web page */
@@ -30,11 +43,12 @@
 }
 
 .message .container {
-  width: 450px;
+  width: 250px;
   height: 140px;
   background-color: #ffffffd4;
   line-height: 0.9;
 }
+
 .container .caption {
   font-family: Poppins;
   font-size: 24px;
@@ -43,27 +57,10 @@
   text-align: center;
   padding: 25px;
 }
-
-/* media qeury stryle to fit on mobile devices */
-@media (max-width: 900px) {
-  .nav {
-    display: none;
-  }
-  .hero {
-    background-image: url(../images/Hero\(2\).png);
-    width: 375px;
-    height: 812px;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .message .container {
-    width: 250px;
-    height: 140px;
-    background-color: #ffffffd4;
-    line-height: 0.9;
-  }
-  .shop {
-    margin-bottom: 3px;
-    font-size: 11px;
-  }
+.shop {
+  margin-bottom: 3px;
+  font-size: 11px;
+}
+.navi {
+  display: none;
 }

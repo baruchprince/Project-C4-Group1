@@ -1,0 +1,55 @@
+.footer {
+  width: 355px;
+  height: 470px;
+  background-color: black;
+  background-image: url(../images/Rectangle\ 7.svg);
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.footer img {
+  color: #000000;
+  padding-top: 30px;
+}
+.dft {
+  margin-bottom: 12px;
+}
+.footer .subscribe {
+  margin-left: 5px;
+  border: 1px solid rgba(104, 104, 129, 0.103);
+  height: 140px;
+}
+
+form.userform input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 280px;
+  height: 30px;
+}
+
+form.userform button {
+  float: left;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 2px;
+  color: #000000;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+#send {
+  background-image: url(../images/greater-than.png);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.address {
+  background-color: blue;
+  height: 30px;
+  margin-bottom: 5px;
+}

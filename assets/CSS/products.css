@@ -1,85 +1,105 @@
-@media (max-width: 900px) {
-  .product-container {
-    width: 350px;
-    height: 3006px;
-    background-color: #ffffff;
-    margin: 35px 13px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .sub-heading {
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 0em;
-    margin: 0 auto;
-    color: #000000;
-    text-align: center;
-  }
-  .showcase {
-    width: 350px;
-    height: 350px;
-    top: 1368px;
-    left: 12px;
-    background-color: rgba(52, 48, 48, 0.5);
-  }
-  .one {
-    background-image: url(../images/13\ 1.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .details {
-    width: 131px;
-    height: 80px;
-    top: 1503px;
-    left: 121px;
-    color: rgba(255, 255, 255, 1);
-    text-align: center;
-    font-size: 12px;
-  }
-  .two {
-    background-image: url(../images/13\ 1\ 1.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .three {
-    background-image: url(../images/13\ 1bag.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .four {
-    background-image: url(../images/13\ 1pencilholder.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .five {
-    background-image: url(../images/13\ 1keyholder.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .six {
-    background-image: url(../images/13\ 1cottoncanvas.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .seven {
-    background-image: url(../images/13\ 1kors.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .eight {
-    background-image: url(../images/13\ 1bost.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.product-container {
+  width: 375px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sub-heading {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0em;
+  margin: 0 auto;
+  color: #000000;
+  text-align: center;
+}
+.showcase {
+  width: 355px;
+  height: 350px;
+  top: 1368px;
+  left: 12px;
+  background-color: rgba(52, 48, 48, 0.5);
+  margin-bottom: 13px;
+}
+.one {
+  background-image: url(../images/13\ 1.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 355px;
+}
+.details {
+  width: 131px;
+  height: 80px;
+  top: 1503px;
+  left: 121px;
+  color: rgba(255, 255, 255, 0.726);
+  text-align: center;
+  font-size: 12px;
+}
+.two {
+  background-image: url(../images/13\ 1\ 1.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.three {
+  background-image: url(../images/13\ 1bag.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.four {
+  background-image: url(../images/13\ 1pencilholder.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.five {
+  background-image: url(../images/13\ 1keyholder.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.six {
+  background-image: url(../images/13\ 1cottoncanvas.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seven {
+  background-image: url(../images/13\ 1kors.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eight {
+  background-image: url(../images/13\ 1bost.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.art1 {
+  background-image: url(../images/Article1.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 355px;
+}
+.art2 {
+  background-image: url(../images/Article2.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 355px;
+}
+.art3 {
+  background-image: url(../images/Article3.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 355px;
 }
