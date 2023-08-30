@@ -1,8 +1,5 @@
 /* stylesheet for furniture section*/
 
-/* .msgSect{
-  display: flex;
-} */
 /* stylesheet for caption for furniture and
 basket collection*/
 .caption2 {
@@ -16,14 +13,13 @@ basket collection*/
 
 /* media querry to adjust furniture collection 
 section on mobile phones*/
-/* @media (max-width: 900px) { */
   .furncontainer {
     margin: 35px auto;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 100%;
+    width: 95%;
   }
   /* mobile fit for new furniture collection*/
   .furn1 {
@@ -47,50 +43,53 @@ section on mobile phones*/
     margin-bottom: 20px;
     padding-left: 5px;
     padding-top: 10px;
-    ;
   }
 
   /* mobile fit for captions on furniture and basket collection*/
   .caption2 {
-    font-size: 14px;
+    font-size: 20px;
     margin-left: 5px;
     text-align: center;
-    margin-top: 35px;
-    width: 98px;
+    margin-top: 25px;
+    width: 150px;
     padding-left: 0;
     word-spacing: 1px;
   }
 
   /* stylesheet for SHOP NOW link*/
   .shopextend {
-    margin-left: 18px;
+    margin: 15px;
     width: 100px;
-    font-size: 11px;
+    font-size: 16px;
   }
   /* mobile fit for SHOP NOW hyperlink*/
   .shopextend a {
     text-decoration: underline;
   }
-/* } */
+
 @media (min-width: 900px){
-  .furn1{
-    width: 500px;
-    height: 300px;
+  .furncontainer{
+    gap: 20px;
+  }
+   .furn1{
+    width: 430px;
+    height: 250px;
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-position: right;
   }
   .furn2{
-    width: 500px;
-    height: 300px;
-    height: 300px;
+    width: 430px;
+    height: 250px;
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-position: right;
   }
   .caption2{
-    width: 200px;
+    width: 250px;
   }
 }
