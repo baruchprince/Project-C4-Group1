@@ -1,13 +1,11 @@
-@media (max-width: 900px) {
   .product-container {
-    width: 350px;
-    height: 3006px;
     background-color: #ffffff;
     margin: 35px 13px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: flex-start;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
   .sub-heading {
     font-family: Poppins;
@@ -17,20 +15,19 @@
     margin: 0 auto;
     color: #000000;
     text-align: center;
+    width: 90%;
   }
   .showcase {
     width: 350px;
     height: 350px;
     top: 1368px;
-    left: 12px;
     background-color: rgba(52, 48, 48, 0.5);
-  }
-  .one {
-    background-image: url(../images/13\ 1.png);
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px;
   }
+
   .details {
     width: 131px;
     height: 80px;
@@ -40,46 +37,51 @@
     text-align: center;
     font-size: 12px;
   }
+
+  .one {
+    background-image: url(../images/pr1.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
   .two {
-    background-image: url(../images/13\ 1\ 1.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url(../images/pr2.png);
+    background-repeat:no-repeat;
+    background-size: cover;
   }
   .three {
-    background-image: url(../images/13\ 1bag.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url(../images/pr3.png);
+    background-repeat:no-repeat;
+    background-size: cover;
   }
   .four {
-    background-image: url(../images/13\ 1pencilholder.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url(../images/pr4.png);
+    background-repeat:no-repeat;
+    background-size: cover;
   }
   .five {
-    background-image: url(../images/13\ 1keyholder.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url(../images/pr5.png);
+    background-repeat:no-repeat;
+    background-size: cover;
   }
   .six {
-    background-image: url(../images/13\ 1cottoncanvas.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url(../images/pr6.png);
+    background-repeat:no-repeat;
+    background-size: cover;
   }
   .seven {
-    background-image: url(../images/13\ 1kors.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url(../images/pr7.png);
+    background-repeat:no-repeat;
+    background-size: cover;
   }
   .eight {
-    background-image: url(../images/13\ 1bost.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url(../images/pr8.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+@media (min-width=1000px) {
+  .showcase{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 30%;
   }
 }
