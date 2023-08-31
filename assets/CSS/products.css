@@ -1,10 +1,12 @@
   .product-container {
     background-color: #ffffff;
-    margin: 35px 13px;
+    /* margin: 35px 13px; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
+    margin: 0 auto;
+    
     /* flex-direction: column; */
   }
   .sub-heading {
@@ -18,14 +20,15 @@
     width: 90%;
   }
   .showcase {
-    width: 350px;
-    height: 350px;
-    top: 1368px;
+    width: 250px;
+    height: 250px;
+    /* top: 1368px; */
     background-color: rgba(52, 48, 48, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px;
+    margin: 5px;
+    flex: 1, 1, 100%;
   }
 
   .details {
@@ -39,49 +42,66 @@
   }
 
   .one {
-    background-image: url(../images/pr1.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr1.png);
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   .two {
-    background-image: url(../images/pr2.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr2.png);
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   .three {
-    background-image: url(../images/pr3.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr3.png);
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   .four {
-    background-image: url(../images/pr4.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr4.png);
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   .five {
-    background-image: url(../images/pr5.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr5.png);
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   .six {
-    background-image: url(../images/pr6.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr6.png);
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   .seven {
-    background-image: url(../images/pr7.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr7.png);
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   .eight {
-    background-image: url(../images/pr8.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr8.png);
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
-@media (min-width=1000px) {
-  .showcase{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    width: 30%;
+
+ @media (min-width:550px) { 
+    .product-container{
+      justify-content: flex-start;      
+    }
+
+    .showcase{ 
+      width: 30%;
+      /*flex-grow: 1;
+      height: 350px; */
+    }
   }
-}
+
+  @media (min-width:900px) { 
+    .product-container{
+      justify-content: flex-start;      
+    }
+
+    .showcase{ 
+      width: 20%;
+      flex-grow: 1;
+      /*height: 350px; */
+    }
+  }
