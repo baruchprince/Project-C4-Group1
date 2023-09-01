@@ -4,7 +4,7 @@
     left: 12px;
     background-color: rgba(52, 48, 48, 0.5);
     margin-bottom: 13px;
-    background-image: url(../images/Article1.svg);
+    background-image: url(../images/b1.jpg);
   }
   
   .art2 {
@@ -13,7 +13,7 @@
     left: 12px;
     background-color: rgba(52, 48, 48, 0.5);
     margin-bottom: 13px;
-    background-image: url(../images/Article2.svg);
+    background-image: url(../images/b2.jpg);
   }
   .art3 {
     width: 355px;
@@ -21,7 +21,7 @@
     left: 12px;
     background-color: rgba(52, 48, 48, 0.5);
     margin-bottom: 13px;
-    background-image: url(../images/Article3.svg);
+    background-image: url(../images/b3.jpg);
   }
 
   .footer {
