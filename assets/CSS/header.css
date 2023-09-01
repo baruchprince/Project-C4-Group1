@@ -84,12 +84,13 @@
 /*Media query for desktop*/
 @media only screen and (min-width: 992px) {
   .hero {
-    width: 1280px;
+    width: 1390px;
     height: 812px;
     background-image: url(../images/Hero-d.svg);
+    margin-bottom: 40px;
   }
   .header {
-    width: 1207px;
+    width: 1307px;
     height: 40px;
     display: flex;
     justify-content: space-between;
