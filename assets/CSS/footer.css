@@ -93,6 +93,7 @@ form.userform button {
   margin-left: 12px;
 }
 
+/*for tablet */
 @media only screen and (min-width: 600px) {
   .footer {
     width: 744px;
@@ -136,5 +137,38 @@ form.userform button {
   .copyright {
     height: 50px;
     width: 744px;
+  }
+}
+
+/*Media query for desktop*/
+@media only screen and (min-width: 992px) {
+  .footer {
+    width: 1390px;
+  }
+  .address-subscription-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1280px;
+    border-bottom: 3px solid gray;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .footer-logo {
+    height: 70px;
+    width: 740px;
+    margin-top: 0;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    padding-left: 9px;
+  }
+  .copyright {
+    height: 50px;
+    width: 744px;
+    margin-left: 60px;
+  }
+  .subscription {
+    margin-right: 10px;
   }
 }

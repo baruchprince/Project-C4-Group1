@@ -57,26 +57,23 @@
 @media only screen and (min-width: 992px) {
   .furncontainer {
     width: 1310px;
-
-    height: 170px;
+    height: 220px;
     display: flex;
     flex-direction: row;
-    background-color: #a32929;
   }
   .furn1 {
     width: 630px;
-    height: 150px;
-    background-color: aqua;
+    height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url();
+    background-image: url(../images/Furniture\ Collection-d.svg);
+    background-position: center;
   }
   .furn2 {
     width: 630px;
-    height: 150px;
-    background-color: chartreuse;
+    height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url();
+    background-image: url(../images/Basket\ Collection-d.svg);
   }
 }
