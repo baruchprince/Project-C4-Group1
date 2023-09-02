@@ -43,7 +43,13 @@
   letter-spacing: 0em;
   text-align: center;
   padding: 25px;
-}
+}  
+.shop {
+     font-family: Dosis;/*, sans-serif*/
+    margin-bottom: 3px;
+    font-size: 15px;
+  }
+
 
 /* .hero {
     background-image: url(../assets/hero.jpg);
@@ -58,10 +64,7 @@
     background-color: #ffffffd4;
     line-height: 0.9;
   }
-  .shop {
-    margin-bottom: 3px;
-    font-size: 11px;
-  } */
+  . */
 
 /* media qeury stryle to fit on mobile devices */
 @media (max-width: 900px) {
