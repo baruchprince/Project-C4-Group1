@@ -34,66 +34,123 @@
   }
 
   .details {
-    width: 150px;
+    width: 180px;
     height: 80px;
     /* top: 1503px; */
     left: 121px;
     color: rgba(255, 255, 255, 1);
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .details p{
     margin: 20px;
+    /* z-index: -1; */
   }
 
   .one {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr1.png);
+    background-image: url(../images/pr1.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
   }
   .two {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr2.png);
+    background-image: url(../images/pr2.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
   }
   .three {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr3.png);
+    background-image: url(../images/pr3.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
   }
   .four {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr4.png);
+    background-image: url(../images/pr4.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
   }
   .five {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr5.png);
+    background-image: url(../images/pr5.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
   }
   .six {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr6.png);
+    background-image: url(../images/pr6.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
   }
   .seven {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr7.png);
+    background-image: url(../images/pr7.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
   }
   .eight {
+    background-image: url(../images/pr8.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+/* Hover section */
+  .one:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr1.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .two:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr2.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .three:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr3.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .four:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr4.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .five:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr5.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .six:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr6.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .seven:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr7.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .eight:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pr8.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
+  }
+
+  .details:hover {
+    margin: 20px;
+    z-index: 1;
   }
 
  @media (min-width:550px) { 
@@ -118,6 +175,7 @@
     .showcase{ 
       width: 20%;
       max-width: 400px;
+      height: 400px;
       flex-grow: 1;
       /*height: 350px; */
     }
