@@ -10,7 +10,23 @@
   justify-content: space-between;
   flex-direction: column;
 }
+.furn1 {
+  background-image: url(../images/Furniture\ Collection.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 150px;
+}
 
+.furn2 {
+  background-image: url(../images/Basket\ Collection.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 150px;
+}
+
+/*Media query for tablet*/
 @media only screen and (min-width: 600px) {
   /* Flex container for furnitures*/
   .furncontainer {
@@ -19,5 +35,45 @@
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
+  }
+  .furn1 {
+    width: 350px;
+    height: 179px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/Furniture\ Collection.svg);
+  }
+
+  .furn2 {
+    width: 350px;
+    height: 179px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/Basket\ Collection.svg);
+  }
+}
+
+/*Media query for desktop*/
+@media only screen and (min-width: 992px) {
+  .furncontainer {
+    width: 1310px;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+  }
+  .furn1 {
+    width: 630px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/Furniture\ Collection-d.svg);
+    background-position: center;
+  }
+  .furn2 {
+    width: 630px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/Basket\ Collection-d.svg);
   }
 }

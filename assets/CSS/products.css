@@ -158,6 +158,8 @@
   background-color: rgba(52, 48, 48, 0.5);
   margin-bottom: 13px;
   background-image: url(../images/Article1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .art2 {
@@ -167,6 +169,8 @@
   background-color: rgba(52, 48, 48, 0.5);
   margin-bottom: 13px;
   background-image: url(../images/Article2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .art3 {
   width: 355px;
@@ -175,8 +179,11 @@
   background-color: rgba(52, 48, 48, 0.5);
   margin-bottom: 13px;
   background-image: url(../images/Article3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+/*tablet style*/
 @media only screen and (min-width: 600px) {
   .product-container {
     width: 744px;
@@ -237,14 +244,81 @@
   }
   div.art1 {
     width: 320px;
+    background-image: url(../images/Article1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   div.art2 {
     width: 320px;
+    background-image: url(../images/Article2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   div.art3 {
     width: 320px;
+    background-image: url(../images/Article3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   div.art4 {
     width: 320px;
+  }
+}
+
+/*Media query for desktop*/
+@media only screen and (min-width: 992px) {
+  .product-container {
+    width: 1310px;
+    margin-bottom: 2px;
+    padding: 0;
+    height: 660px;
+  }
+  .main-container {
+    width: 1300px;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 660px;
+    justify-content: space-evenly;
+  }
+  .showcase1,
+  .showcase2,
+  .showcase3,
+  .showcase4,
+  .showcase5,
+  .showcase6,
+  .showcase7,
+  .showcase8 {
+    width: 310px;
+    height: 310px;
+  }
+
+  /*blog style*/
+  .news-container {
+    width: 1310px;
+    height: 370px;
+    display: flex;
+    padding: 10px 3px 10px 5px;
+  }
+  .art4 {
+    display: none;
+  }
+  .news-container .art1 {
+    width: 410px;
+    background-image: url(../images/Article1-d.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .news-container .art2 {
+    width: 410px;
+    background-image: url(../images/Article2\(1\).svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .news-container .art3 {
+    width: 410px;
+    background-image: url(../images/Article3\(1\).svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
