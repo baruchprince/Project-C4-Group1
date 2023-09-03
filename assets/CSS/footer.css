@@ -1,27 +1,32 @@
   .footer {
-    width: 355px;
+    width: 100%;
     height: 370px;
-    background-image: url(../images/Rectangle\ 7.svg);
-    padding-top: 10px;
-    padding-left: 2px;
+    background-color: #EFEFEF;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .footer-logo {
     height: 70px;
     width: 330px;
+    margin-left: 10px;
   }
   
   .address {
-    height: 100px;
     margin-bottom: 10px;
     width: 330px;
     padding: 6px;
   }
   .address p {
-    line-height: 5;
+    line-height: 24px;
     margin-bottom: 8px;
-    padding-left: 2px;
-    font-size: 15px;
+    padding-left: 2px;    
+    margin-left: 12px;
+  }
+
+  .footItems {
+    font-size: 16px;
+    text-align: center;
   }
   .footer-logo img {
     color: #000000;
@@ -31,7 +36,6 @@
   .subscription {
     height: 120px;
     width: 330px;
-    border-bottom: 3px solid gray;
     margin-bottom: 10px;
   }
   .subscription p {
@@ -74,18 +78,21 @@
   .imagespace {
     margin-left: 10px;
   }
+
+  .bottomLine {
+    color: gray;
+    width: 95%;
+    margin: auto;
+  }
   
   .copyright {
     width: 330px;
     height: 30px;
     padding-left: 13px;
+    
   }
   
-  .address p {
-    line-height: 0.1px;
-    margin-left: 12px;
-  }
-  
+    
   .container p {
     margin-left: 12px;
   }
@@ -95,7 +102,7 @@
   
   @media only screen and (min-width: 600px) {
     .footer {
-      width: 744px;
+      width: 100%;
       height: 250px;
       margin: 0 auto;
       background-image: url(../images/Rectangle\ 7.svg);
@@ -114,10 +121,8 @@
       display: flex;
       justify-content: space-between;
       flex-direction: row;
-      width: 710px;
-      border-bottom: 3px solid gray;
+      width: 100%;      
       padding: 0;
-      margin-bottom: 10px;
     }
   
     .address {
@@ -130,11 +135,10 @@
       height: 110px;
       padding-top: 5px;
       width: 335px;
-      border-bottom: none;
     }
   
     .copyright {
       height: 50px;
-      width: 744px;
+      width: 100%;
     }
   }
