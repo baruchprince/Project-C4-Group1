@@ -26,54 +26,83 @@
   height: 150px;
 }
 
-/*Media query for tablet*/
-@media only screen and (min-width: 600px) {
-  /* Flex container for furnitures*/
+/* media querry to adjust furniture collection 
+section on mobile phones*/
   .furncontainer {
-    width: 744px;
-    height: 200px;
+    margin: 35px auto;
     display: flex;
-    flex-direction: row;
-    background-color: #ffffff;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 95%;
   }
   .furn1 {
-    width: 350px;
-    height: 179px;
+    background-image: url(../images/furn.Jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../images/Furniture\ Collection.svg);
   }
 
   .furn2 {
-    width: 350px;
-    height: 179px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../images/Basket\ Collection.svg);
-  }
-}
-
-/*Media query for desktop*/
-@media only screen and (min-width: 992px) {
-  .furncontainer {
-    width: 1310px;
-    height: 220px;
-    display: flex;
-    flex-direction: row;
-  }
-  .furn1 {
-    width: 630px;
-    height: 200px;
+    background-image: url(../images/bask.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../images/Furniture\ Collection-d.svg);
     background-position: center;
   }
-  .furn2 {
-    width: 630px;
-    height: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../images/Basket\ Collection-d.svg);
+
+  /* mobile fit for captions on furniture and basket collection*/
+  .caption2 {
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: center;
+    margin-top: 25px;
+    width: 150px;
+    padding-left: 0;
+    word-spacing: 1px;
+  }
+
+  /* stylesheet for SHOP NOW link*/
+  .shopextend {
+    margin: 15px;
+    width: 150px;
+    font-size: 16px;
+    display: flex;
+    gap: 2px;
+  }
+  /* mobile fit for SHOP NOW hyperlink*/
+  .shopextend a {
+    text-decoration: underline;
+  }
+
+  .dash {
+    width: 20px;
+    margin-top: 20px;
+  }
+
+@media (min-width: 900px){
+  .furncontainer{
+    gap: 20px;
+  }
+   .furn1{
+    width: 430px;
+    height: 250px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-position: right;
+  }
+  .furn2{
+    width: 430px;
+    height: 250px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-position: right;
+  }
+  .caption2{
+    width: 250px;
   }
 }

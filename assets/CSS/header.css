@@ -1,6 +1,7 @@
 /* style for hero section of web page */
 .hero {
-  background-image: url(../images/Hero\(2\).png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
+  background-position: center center;
   padding: 10px;
   width: 375px;
   height: 812px;
@@ -56,14 +57,13 @@
   letter-spacing: 0em;
   text-align: center;
   padding: 25px;
-}
+}  
 .shop {
-  margin-bottom: 3px;
-  font-size: 11px;
-}
-.navi {
-  display: none;
-}
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 3px;
+    font-size: 16px;
+  }
+
 
 @media only screen and (min-width: 600px) {
   .hero {
@@ -79,7 +79,7 @@
     align-items: center;
     padding: 8px;
   }
-}
+  . */
 
 /*Media query for desktop*/
 @media only screen and (min-width: 992px) {

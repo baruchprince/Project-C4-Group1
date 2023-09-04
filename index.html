@@ -12,11 +12,11 @@ C4 Group 1-->
     <link rel="stylesheet" href="./assets/CSS/header.css" />
     <link rel="stylesheet" href="./assets/CSS/furniture.css" />
     <link rel="stylesheet" href="./assets/CSS/products.css" />
+    <link rel="stylesheet" href="./assets/CSS/article.css" />
     <link rel="stylesheet" href="./assets/CSS/footer.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
-                
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
   </head>
   <body>
     <section class="hero">
@@ -53,99 +53,179 @@ C4 Group 1-->
     </section>
 
     <!--Furniture Collection Section-->
+      <div class="furncontainer">
+        <div class="furn1">
+          <p class="caption2">New Furniture Collection</p>
+          <p class="shopextend">
+            <a href="#shop" class="shop">SHOP NOW</a>
+            <i data-feather="minus"></i>
+          </p>
+        </div>
+        <div class="furn2">
+          <p class="caption2">New Basket Collection</p>
+          <p class="shopextend">
+            <a href="#shop" class="shop">SHOP NOW</a>
+            <i data-feather="minus"></i>
+          </p>
+        </div>
+      </div>
 
-    <section class="furncontainer">
-      <div class="furn1"></div>
-      <div class="furn2"></div>
-    </section>
-    <div><h3 class="heading">Best Products</h3></div>
+
     <!--Best Products Section-->
-    <section class="product-container">
-      
-      <div class="main-container">
-        <div class="showcase1">
-          <div class="details">
-            <p>Christopher Knight Furniture</p>
-            <p>$ 235.23</p>
-          </div>
-        </div>
-        <div class="showcase2">
-          <div class="details">
-            <p>Wheat Straw unbreakable cup</p>
-            <p>$ 67.15</p>
-          </div>
-        </div>
-        <div class="showcase3">
-          <div class="details">
-            <p>Adidas Classic Bag</p>
-            <p>$ 49.82</p>
-          </div>
-        </div>
-        <div class="showcase4">
-          <div class="details">
-            <p>Desk Pencil - Pen Holder</p>
-            <p>$ 22.30</p>
-          </div>
-        </div>
-        <div class="showcase5">
-          <div class="details">
-            <p>Ripple Creak Key Holder</p>
-            <p>$ 8.13</p>
-          </div>
-        </div>
-        <div class="showcase6">
-          <div class="details">
-            <p>Economical Cotton Canvas</p>
-            <p>$ 11.08</p>
-          </div>
-        </div>
-        <div class="showcase7">
-          <div class="details">
-            <p>Michael Kors Original</p>
-            <p>$ 15.10</p>
-          </div>
-        </div>
-        <div class="showcase8">
-          <div class="details">
-            <p>Bostanten Women Leather</p>
-            <p>$ 234.26</p>
-          </div>
-        </div>
-        <i aria-hidden="true" class="showcase9"></i>
+    <div class="product-container">
+      <h3 class="sub-heading">Best Products</h3>
+      <div class="showcase one">
+        <div class="details">
+          <p>Christopher Knight Furniture</p>
+          <p>$ 235.23</p>
         </div>
       </div>
-    </section>
-
-    <div><h3 class="heading">Recent News</h3></div>
-       <!--Recent News Section-->
-    <section class="news-container">
-      <div class="art1"></div>
-      <div class="art2"></div>
-      <div class="art3"></div>
-      <div class="art4"><i aria-hidden="true"></i></div>
-    </section>
-
-    <footer class="footer">
-      <!--footer logo part-->
-      <div class="footer-logo">
-          <img src="./assets/images/Footer logo.svg" alt="footer logo" />
-      </div>
-      <!--Adress part-->
-      <div class="address-subscription-container">
-        <div class="address">
-              <p>
-                <img src="./assets/images/map-pin.svg" alt="map" />
-                194 Main Rd T, FS Rayed, USA
-              </p>
-              <p>
-                <img src="./assets/images/mail.svg" alt="map" />
-                info@tmart.org
-              </p>
-              <p>
-                <img src="./assets/images/phone-call.svg" alt="map" />
-                +233 244 244 244
-              </p>
+      <div class="showcase two">
+        <div class="details">
+          <p>Wheat Straw unbreakable cup</p>
+          <p>$ 67.15</p>
         </div>
+      </div>
+      <div class="showcase three">
+        <div class="details">
+          <p>Adidas Classic Bag</p>
+          <p>$ 49.82</p>
+        </div>
+      </div>
+      <div class="showcase four">
+        <div class="details">
+          <p>Desk Pencil - Pen Holder</p>
+          <p>$ 22.30</p>
+        </div>
+      </div>
+      <div class="showcase five">
+        <div class="details">
+          <p>Ripple Creak Key Holder</p>
+          <p>$ 8.13</p>
+        </div>
+      </div>
+      <div class="showcase six">
+        <div class="details">
+          <p>Economical Cotton Canvas</p>
+          <p>$ 11.08</p>
+        </div>
+      </div>
+      <div class="showcase seven">
+        <div class="details">
+          <p>Michael Kors Original</p>
+          <p>$ 15.10</p>
+        </div>
+      </div>
+      <div class="showcase eight">
+        <div class="details">
+          <p>Bostanten Women Leather</p>
+          <p>$ 234.26</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Recent News Section-->
+    <div><h3 class="sub-heading">Recent News</h3></div>
+ <article class="news-container">
+   <div class="recNews art1">
+    <div class="borBox">
+      <div class="dateBox">
+        <p class="dateNum">20</p>
+        <p class="dateMon">May</p>
+      </div>
+    </div>
+    <div class="recText">
+      <p class="articleText">
+        How to Optimize Your eCommerce Store for Better Conversions
+      </p>
+      <p class="shopextend">
+        <a href="#shop" class="shop">READ MORE</a>
+        <i data-feather="minus"></i>
+      </p>
+    </div>    
+   </div>
+   <div class="recNews art2">
+    <div class="borBox">
+      <div class="dateBox">
+        <p class="dateNum">13</p>
+        <p class="dateMon">May</p>
+      </div>
+    </div>
+    <div class="recText">
+      <p class="articleText">
+        Understanding and Implementing SEO for eCommerce Success
+      </p>
+      <p class="shopextend">
+        <a href="#shop" class="shop">READ MORE</a>
+        <i data-feather="minus"></i>
+      </p>
+    </div>
+   </div>
+   <div class="recNews art3">
+    <div class="borBox">
+      <div class="dateBox">
+        <p class="dateNum">04</p>
+        <p class="dateMon">May</p>
+      </div>
+    </div>
+    <div class="recText">
+      <p class="articleText">
+        Effective Email Marketing Strategies for eCommerce Businesses
+      </p>
+      <p class="shopextend">
+        <a href="#shop" class="shop">READ MORE</a>
+        <i data-feather="minus"></i>
+      </p>
+    </div>
+   </div>
+ </article>
+
+ <footer class="footer">
+   <!--footer logo part-->
+   <div class="footer-logo">
+       <img src="./assets/images/logo.png" alt="footer logo" />
+   </div>
+   <!--Adress part-->
+   <div class="address-subscription-container">
+     <div class="address">
+           <p>
+             <i data-feather="map-pin"></i> 
+             <span class="footItems">194 Main Rd T, FS Rayed, USA</span>
+           </p>
+           <p>
+             <i data-feather="mail"></i> 
+             <span class="footItems">info@tmart.org</span> 
+           </p>
+           <p>
+             <i data-feather="phone-call"></i>
+             <span class="footItems">+233 244 244 244</span> 
+           </p>
+     </div>
+
+     <!--Subscription Section-->
+     <div class="subscription">
+       <p>
+           Subscribe to our newsletter and get 10% <br />off your first
+           purchase.
+         </p>
+         <div class="submit-form">
+           <form class="userform" action="" method="POST">
+             <input
+               type="text"
+               placeholder="Enter your email address"
+               name="search"
+             />
+             <button type="submit" id="send">></button>
+           </form>
+         </div>
+     </div>
+   </div>
+   <hr class="bottomLine">
+   <!--Copyright section-->
+   <div class="copyright">
+     <p>&copy Tmart - All rights reserved</p>
+    </div>
+ </footer>
 
         <!--Subscription Section-->
         <div class="subscription">
