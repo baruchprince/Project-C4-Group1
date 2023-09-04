@@ -3,36 +3,23 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
   background-position: center center;
   padding: 10px;
-  width: 375px;
-  height: 812px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /* style for header section of web page */
 .header {
-  width: 355px;
   height: 40px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 8px;
 }
 .header img {
-  width: 70px;
-  height: 15px;
-  margin-left: 5px;
-  margin-top: 9px;
+  width: 113px;
+  height: 27px;
 }
 .header .operatives {
-  margin-right: 5px;
-  height: 40px;
-  margin-top: -15px;
-  padding: 0;
-}
-
-.operatives img {
-  height: 50px;
+  color: #ffffff;
 }
 
 /* style for message section of web page */
@@ -44,14 +31,13 @@
 }
 
 .message .container {
-  width: 250px;
+  width: 450px;
   height: 140px;
   background-color: #ffffffd4;
   line-height: 0.9;
 }
-
 .container .caption {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins;
   font-size: 24px;
   font-weight: 300;
   letter-spacing: 0em;
@@ -65,39 +51,24 @@
   }
 
 
-@media only screen and (min-width: 600px) {
-  .hero {
-    width: 744px;
+/* .hero {
+    background-image: url(../assets/hero.jpg);
+    width: 375px;
     height: 812px;
-    background-image: url(../images/Hero.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-  .header {
-    width: 715px;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
+  .message .container {
+    width: 250px;
+    height: 140px;
+    background-color: #ffffffd4;
+    line-height: 0.9;
   }
   . */
 
-/*Media query for desktop*/
-@media only screen and (min-width: 992px) {
-  .hero {
-    width: 1390px;
-    height: 812px;
-    background-image: url(../images/Hero-d.svg);
-    margin-bottom: 40px;
+/* media qeury stryle to fit on mobile devices */
+@media (max-width: 900px) {
+  .nav {
+    display: none;
   }
-  .header {
-    width: 1307px;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
   }
-  .navi {
-    display: flex;
-  }
-}

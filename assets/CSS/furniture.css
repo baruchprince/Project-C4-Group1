@@ -1,29 +1,14 @@
 /* stylesheet for furniture section*/
 
-/* Flex container for furnitures*/
-.furncontainer {
-  width: 375px;
-  height: 400px;
-  padding: 10px;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-.furn1 {
-  background-image: url(../images/Furniture\ Collection.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 350px;
-  height: 150px;
-}
-
-.furn2 {
-  background-image: url(../images/Basket\ Collection.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 350px;
-  height: 150px;
+/* stylesheet for caption for furniture and
+basket collection*/
+.caption2 {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0em;
+  margin-top: 35px;
 }
 
 /* media querry to adjust furniture collection 
@@ -36,19 +21,28 @@ section on mobile phones*/
     justify-content: space-evenly;
     width: 95%;
   }
+  /* mobile fit for new furniture collection*/
   .furn1 {
     background-image: url(../images/furn.Jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/Furniture\ Collection.svg);
+    height: 150px;
+    width: 350px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-top: 10px;
   }
 
+  /* mobile fit for basket collection*/
   .furn2 {
     background-image: url(../images/bask.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/Furniture\ Collection-d.svg);
-    background-position: center;
+    height: 150px;
+    width: 350px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-top: 10px;
   }
 
   /* mobile fit for captions on furniture and basket collection*/
